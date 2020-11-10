@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Object 1 ",
+    "components": [
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 0.080645144,
+            "y": 0.04942767,
+            "z": 0.04942767,
+            "w": 1.0
+          },
+          "sprite": {
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "transform": {
+      "position": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "scale": {
+        "x": 128.0,
+        "y": 128.0
+      }
+    },
+    "zIndex": 10
+  },
+  {
+    "name": "Object 2 ",
+    "components": [
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "texture": {
+              "filepath": "assets/images/testSprite2.png",
+              "texID": 4,
+              "width": 82,
+              "height": 93
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 1.0
+              },
+              {
+                "x": 1.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "transform": {
+      "position": {
+        "x": 120.0,
+        "y": 400.0
+      },
+      "scale": {
+        "x": 128.0,
+        "y": 128.0
+      }
+    },
+    "zIndex": 1
+  }
+]
